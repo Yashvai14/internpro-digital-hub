@@ -108,17 +108,17 @@ const Contact = () => {
             {contactInfo.map((info, index) => (
               <div
                 key={index}
-                className={`glass-card p-6 rounded-2xl text-center group hover:scale-105 transition-all duration-500 ${
+                className={`glass-card p-6 rounded-2xl text-center group hover:scale-105 transition-all duration-500 min-h-[180px] flex flex-col items-center justify-center ${
                   isVisible ? "animate-scale-in" : "opacity-0"
                 }`}
                 style={{ animationDelay: `${index * 0.1}s` }}
               >
-                <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500">
+                <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center mx-auto mb-4 group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 flex-shrink-0">
                   <info.icon className="w-7 h-7 text-primary" />
                 </div>
                 <h3 className="font-semibold mb-1">{info.title}</h3>
-                <p className="text-primary font-medium">{info.content}</p>
-                <p className="text-sm text-muted-foreground">{info.description}</p>
+                <p className="text-primary font-medium break-words text-sm sm:text-base w-full">{info.content}</p>
+                <p className="text-sm text-muted-foreground break-words w-full">{info.description}</p>
               </div>
             ))}
           </div>
