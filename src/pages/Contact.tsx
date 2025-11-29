@@ -51,26 +51,26 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email Us",
-      content: "hello@internpro.com",
+      content: "manas.sawarkar@internpro.live",
       description: "We reply within 24 hours",
     },
     {
       icon: Phone,
       title: "Call Us",
-      content: "+1 (555) 123-4567",
-      description: "Mon-Fri 9am-6pm EST",
+      content: "+91 8432418606",
+      description: "Mon-Fri 9am-6pm IST",
     },
     {
       icon: MapPin,
       title: "Visit Us",
-      content: "123 Tech Street",
-      description: "Silicon Valley, CA 94000",
+      content: "Incubian Foundation, RTMNU",
+      description: "Ambazari Road, Nagpur",
     },
     {
       icon: Clock,
       title: "Working Hours",
       content: "Monday - Friday",
-      description: "9:00 AM - 6:00 PM EST",
+      description: "9:00 AM - 6:00 PM IST",
     },
   ];
 
@@ -260,8 +260,8 @@ const Contact = () => {
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="text-center">
                 <MapPin className="w-12 h-12 text-primary mx-auto mb-4 animate-bounce" />
-                <p className="text-xl font-semibold">123 Tech Street, Silicon Valley</p>
-                <p className="text-muted-foreground">California, CA 94000</p>
+                <p className="text-xl font-semibold">Incubian Foundation, RTMNU</p>
+                <p className="text-muted-foreground">Ambazari Road, Nagpur</p>
               </div>
             </div>
           </div>

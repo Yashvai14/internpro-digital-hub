@@ -91,15 +91,15 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-center gap-3 text-muted-foreground">
                 <Mail className="w-5 h-5 text-primary" />
-                <span>hello@internpro.com</span>
+                <span>manas.sawarkar@internpro.live</span>
               </li>
               <li className="flex items-center gap-3 text-muted-foreground">
                 <Phone className="w-5 h-5 text-primary" />
-                <span>+1 (555) 123-4567</span>
+                <span>+91 8432418606</span>
               </li>
               <li className="flex items-start gap-3 text-muted-foreground">
                 <MapPin className="w-5 h-5 text-primary mt-0.5" />
-                <span>123 Tech Street, Silicon Valley, CA 94000</span>
+                <span>Incubian Foundation, RTMNU, Ambazari Road, Nagpur</span>
               </li>
             </ul>
           </div>
