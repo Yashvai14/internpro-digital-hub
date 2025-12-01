@@ -48,9 +48,9 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link
             to="/"
-            className="text-2xl font-bold gradient-text hover:scale-105 transition-transform duration-300"
+            className=" mb-2 hover:scale-105 transition-transform duration-300"
           >
-            InternPro
+            <img src="/logo.png" alt="Logo" className="h-8 w-auto" />
           </Link>
 
           {/* Desktop Menu */}
