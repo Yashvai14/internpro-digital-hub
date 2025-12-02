@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from "lucide-react";
+import { Facebook, Linkedin, Instagram, Mail, Phone, MapPin } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -18,10 +18,9 @@ const Footer = () => {
       { name: "Contact", href: "/contact" },
     ],
     social: [
-      { icon: Facebook, href: "#", label: "Facebook" },
-      { icon: Twitter, href: "#", label: "Twitter" },
-      { icon: Linkedin, href: "#", label: "LinkedIn" },
-      { icon: Instagram, href: "#", label: "Instagram" },
+      { icon: Facebook, href: "https://www.facebook.com/share/1Mnv97F32f/?mibextid=wwXIfr", label: "Facebook" },
+      { icon: Linkedin, href: "https://www.linkedin.com/company/gointernpro/", label: "LinkedIn" },
+      { icon: Instagram, href: "https://www.instagram.com/internpro_?igsh=ZWV2YTE0ejl5MnYw&utm_source=qr", label: "Instagram" },
     ],
   };
 
@@ -95,7 +94,7 @@ const Footer = () => {
               </li>
               <li className="flex items-center gap-3 text-muted-foreground">
                 <Phone className="w-5 h-5 text-primary" />
-                <span>+91 8432418606</span>
+                <span>+91-7447465665</span>
               </li>
               <li className="flex items-start gap-3 text-muted-foreground">
                 <MapPin className="w-5 h-5 text-primary mt-0.5" />
