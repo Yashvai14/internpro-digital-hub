@@ -51,7 +51,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email Us",
-      content: "manas.sawarkar@internpro.live",
+      content: "business@internpro.live",
       description: "We reply within 24 hours",
     },
     {
